@@ -1,9 +1,7 @@
 {
-      "key": "todo",
       "name": "Todo",
       "icon": { "class": "fas fa-clipboard-list fa-2x" },
       "description": "A simple todo app that allows you to create, update, and delete tasks. Auth0 integration is also included, as well as a working frontend.",
-      "frontendFolder": "todo-app-react",
       "schemaUrl": "https://raw.githubusercontent.com/Aelbannan/sample-one-click-deploy/master/schema.txt",
       "mutationsUrl": "https://raw.githubusercontent.com/Aelbannan/sample-one-click-deploy/master/mutation.txt",
-},
+}
