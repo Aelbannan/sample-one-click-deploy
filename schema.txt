@@ -9,7 +9,7 @@ type User {
   name: String @search(by: [exact])
   tasks: [Task] @hasInverse(field: user)
 }
-------SCHEMA PART 2------
+------SCHEMA AUTH------
 type Task @auth(
   query: { rule: """
     query($USER: String!) {
